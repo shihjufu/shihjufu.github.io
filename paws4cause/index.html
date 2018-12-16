@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Paws4Cause</title>
+   <link rel="stylesheet" href="https://use.typekit.net/uvf6see.css">
+   <link rel="stylesheet" href="flickity.min.css">
+   <script src="js/flickity.pkgd.min.js"></script>
+   <script src="js/scripts.js"></script>
+   <link href="css/normalize.css" rel="stylesheet" />
+   <link href="css/style.css" rel="stylesheet" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <!-- /*=======Nav Bar========*/ -->
+   <ul>
+      <li class="name"><a href="#landingpage">Paws4Cause</a> </li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="#getinvolved">Get Involved</a></li>
+      <li><a href="#about">About</a></li>
+   </ul>
+
+   <!-- /*=======Landing Page========*/ -->
+   <section id="landingpage">
+      <img name="slide" width="100%" height="800px" />
+   </section>
+
+   <!-- /*=======About========*/ -->
+   <section id="about">
+      <h1>About</h1>
+      <p class="about">
+         Each month, 400 volunteers come to help the people who work at the animal shelter and the dogs and
+         cats. The shelter
+         only has 200 cages for the abused and abandoned dogs and cats of Suzhou. Eighty percent of the animals are
+         injured, and
+         half of them are puppies. It only takes one week to adopt a pet from the Animal Shelter.
+
+         In this shelter, about 40 dogs get adopted each month, but 10 new dogs come every week to replace the dogs
+         that are
+         already happily adopted, which makes no change at all to the problems in the shelter.
+
+         The dogs and cats there need your help!
+
+      </p>
+
+      <div class="mapouter">
+         <div class="gmap_canvas"><iframe width="600px" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%90%B4%E6%B1%9F%E5%8C%BA%E6%A8%AA%E6%89%87%E9%95%87%E8%8F%80%E5%9D%AA%E7%A4%BE%E5%8C%BA%E6%96%B0%E6%B9%96%E6%9D%91&t=&z=13&ie=UTF8&iwloc=&output=embed"
+               frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+      </div>
+   </section>
+
+   <!-- /*=======Get Involved========*/ -->
+   <section id="getinvolved">
+      <h1>Get Involved</h1>
+      <div class="row">
+         <div class="column">
+            <div class="card">
+               <img src="images/volunteer.jpg" alt="Jane" style="width:100%">
+               <div class="container">
+                  <h2>Volunteer</h2>
+                  <p>We accept volunteer work at the animal shelter from 9am to 4pm everyday (except national
+                     holidays).</p>
+                  <p><button class="button">Contact</button></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="column">
+            <div class="card">
+               <img src="images/adopt.jpg" alt="Mike" style="width:100%">
+               <div class="container">
+                  <h2>Adopt</h2>
+                  <p>Contact us Today to enquire about adoption, all our dogs are neutered and vaccinated.</p>
+                  <p><button class="button">Contact</button></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="column">
+            <div class="card">
+               <img src="images/foster.jpg" alt="John" style="width:100%">
+               <div class="container">
+                  <h2>Foster</h2>
+                  <p>Short Term and Long Term Dog and Cat Fostering, contact us today to enquire more information.</p>
+                  <p><button class="button">Contact</button></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- /*=======Donate========*/ -->
+   <section id="donate">
+      <h1>Donate</h1>
+      <p class="donate">
+         There are only 4 workers for the shelter most of the time not including the casual voleenters. They all have
+         other jobs just so they can have more money to support these animals that they spent their life loving and
+         rescuing. We kindly accept Alipay and Wechat for donations, as well as dog/cat foods, toys, also blankets
+         and coats for winters.
+      </p>
+      <img class="donate" src="images/alipay.png" alt="aliplay code">
+      <img class="donate" src="images/wechat.png" alt="wechat code">
+   </section>
+
+   <!-- /*=======Contact========*/ -->
+   <section id="contact">
+      <div class="container">
+         <div style="text-align:center">
+            <h1>Contact Us</h1>
+            <p class="contact">Feel free to contact us with any enquiries, we are happy to help:</p>
+         </div>
+         <div class="row">
+            <div class="column">
+               <img class="logo" src="images/contact.jpg" style="width:100%">
+            </div>
+            <div class="column">
+               <form action="/action_page.php">
+                  <label class="name">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label class="name">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="enquiries">Enquiries</label>
+                  <select id="enquiries" name="enquiries">
+                     <option value="volunteer">Volunteer</option>
+                     <option value="adopt">Adoption</option>
+                     <option value="foster">Foster</option>
+                     <option value="other">Others</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+               </form>
+            </div>
+         </div>
+      </div>
+</body>
+
+</html>
